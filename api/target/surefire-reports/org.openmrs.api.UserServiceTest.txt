@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openmrs.api.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 111, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 30.822 s - in org.openmrs.api.UserServiceTest

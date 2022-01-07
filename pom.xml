@@ -1145,6 +1145,12 @@
 		<sonar.issuesReport.lightModeOnly>true</sonar.issuesReport.lightModeOnly>
 		<sonar.issuesReport.console.enable>true</sonar.issuesReport.console.enable>
 		<sonar.analysis.mode>publish</sonar.analysis.mode>
+                <java.version>11</java.version>
+                <dependency-check-maven.version>6.5.2</dependency-check-maven.version>
+                <sonar.dependencyCheck.htmlReportPath>./target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
+                <sonar.dependencyCheck.jsonReportPath>./target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
+                <sonar.dependencyCheck.summarize>true</sonar.dependencyCheck.summarize>
+                <sonar.host.url>http://localhost:9000/</sonar.host.url>
 
 		<argLine>-Duser.language=en -Duser.region=US -Xmx1g ${customArgLineForTesting} -Djava.locale.providers=COMPAT</argLine>
 	</properties>
